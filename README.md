@@ -1,3 +1,38 @@
+Web Scrapper
+
+### Background
+The motivation for this project is
+Who are our competitors
+What product/services are they selling?
+Who are their customers?
+
+Steps:
+
+1. render page in JS with splash
+2. get first partner
+3. click first partner
+4. get website url for first partner
+5. get website url for all partners
+6. follow link to each partner
+7. get product and services for each partner
+
+
+Get all the partners
+Get the website link for partners
+For each partner get the product and services
+
+Massage the result into
+
+[
+  {
+	"name": "partner",
+	"url": "http://...",
+	"products": [""],
+	"services": [""]
+  }
+]
+
+scrapy shell 'http://localhost:8050/render.html?url=https://kubernetes.io/partners/#kcsp'
 
 
 ### Render JS page with Splash
