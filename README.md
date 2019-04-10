@@ -13,9 +13,8 @@ Run splash locally
 
 [Recreate conda environment](https://stackoverflow.com/questions/18640305/how-do-i-keep-track-of-pip-installed-packages-in-an-anaconda-conda-environment)
 
-`conda env export -n webscrapper > environment.yml`
-
-`conda env create -f environment.yml`
+- `conda env export -n webscrapper > environment.yml`
+- `conda env create -f environment.yml`
 
 ### Other ways to render JS pages
 [Selenium python](https://stanford.edu/~mgorkove/cgi-bin/rpython_tutorials/Scraping_a_Webpage_Rendered_by_Javascript_Using_Python.php)
